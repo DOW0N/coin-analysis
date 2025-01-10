@@ -1,11 +1,10 @@
 비트코인시세분석데이터및예측분석프로젝트- 김도원
-preencoded.png
+
 프로젝트개요
 이프로젝트는비트코인시세데이터를MySQL 데이터베이스에서불러와분석하고, 향후시세를예측하는시스템을구축한것입니다. 
 데이터는비트코인의과거가격및거래량정보를기반으로분석하고, Linear Regression 모델을사용하여비트코인시세의예측값을도
 출합니다. 분석된데이터를통해사용자에게실시간시세및향후시세예측정보를제공합니다.
- preencoded.png
- 2
+
 사용된기술스택:
  • Python: 데이터분석및머신러닝모델링
 • Pandas: 데이터처리및전처리
@@ -18,7 +17,8 @@ preencoded.png
  • github : 
 https://github.com/DOW0N/coin-analysis.git
  preencoded.png
- 3
+ 
+ 
 주요기능
 1. 데이터로딩및전처리:
  • MySQL에서비트코인및암호화폐관련데이터를쿼리하여Pandas DataFrame으로로딩
@@ -29,7 +29,8 @@ https://github.com/DOW0N/coin-analysis.git
 3. 가격예측:
  • Linear Regression 모델을 사용하여향후일자에대한비트코인가격을예측
 • 예측된데이터를시각적으로제공하여사용자가향후가격변동을예측할수있도록지원
-preencoded.png
+
+ 
  4
 데이터수집및전처리
 1
@@ -49,6 +50,8 @@ preencoded.png
 시각화(데이터확인)
 전처리된데이터를시각화하여데이터의패턴이나이상값을확인할수있습니다. Matplotlib을사용하여가격변동을시각적으로표현합니다.
  preencoded.png
+ 
+ 
  5
 SQL 쿼리
 •WHERE timestamp >= '2025-01-01' – 2025년 이후의 데이터만 필터링합니다.
@@ -60,9 +63,11 @@ SQL 쿼리
  •GROUP BY DATE(timestamp) – 날짜별로 데이터를 그룹화하여 일별 평균을 산출합니다.
  •ORDER BY date – 날짜순으로 데이터를 정렬합니다. 
 preencoded.png
+ 
+ 
  6
 작업코드(일부)
- preencoded.png
+
  7
 시각화그래프
 비트코인가격변동그래프
@@ -82,7 +87,9 @@ preencoded.png
  • 그래프특징: 예측된가격을점선(linestyle='--')으로표시하여, 실제가격그래
 프와구분할수있게합니다. 이그래프를통해미래의비트코인가격트렌드를
 예측하고실제가격변동과비교할수있습니다.
- preencoded.png
+
+ 
+ 
  8
 향후계획및발전방향
 더많은데이터: 
@@ -92,6 +99,7 @@ preencoded.png
 모델을구축할수있습니다.
  Linear Regression 외에도 머신러닝/딥러닝기법을활용하여보다정교한예측
 preencoded.png
+ 
  9
 결과및성과:
  • 시각화된데이터:
@@ -101,8 +109,9 @@ preencoded.png
 를통해사용자들이향후시세변동에대한예측을할수있도록합니다.
  • 사용자경험개선: 시세예측결과를한글로제공하여한국어사용자가직관
 적으로데이터를분석하고예측할수있도록작업 및 개선하였습니다.
- preencoded.png
+
+ 
  10
 읽어주셔서감사합니다.
- preencoded.png
- end
+
+ 
